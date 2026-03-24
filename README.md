@@ -1,27 +1,53 @@
-## 📌 Financial Data Analysis with Python
+# 📌 Financial Data Analysis with Python
 
-Financial data analysis and automation project developed to improve data organization, reliability, and support data-driven decision making.
+End-to-end financial data pipeline designed to automate data collection, analysis, and decision support for personal investment management.
 
-The solution was designed to structure scattered financial data, automate manual processes, and generate consistent insights from processed information.
+---
+
+## ❗ Problem
+
+Managing financial data manually can lead to inconsistencies, lack of visibility, and inefficient decision-making.
+
+This project was created to automate financial data processing and generate structured insights for better investment decisions.
+
+---
+
+## 🚀 Solution
+
+This project implements an automated pipeline that:
+
+* Collects financial data from structured sources (Google Sheets)
+* Cleans and standardizes the data
+* Enriches data with external indicators (Status Invest / Yahoo Finance)
+* Calculates financial metrics, risk indicators, and opportunity scores
+* Generates structured reports
+* Sends automated notifications via Telegram
+
+---
+
+## 🏗️ Architecture
+
+Google Sheets → Data Processing (Pandas) → External Data (Scraping + APIs) → Analysis → Report Generation → Telegram Notification
 
 ---
 
 ## 🎯 Objective
 
-- Consolidate financial data into a structured data flow  
-- Automate data processing and analysis tasks  
-- Reduce manual effort and risk of inconsistencies  
-- Support financial decisions based on reliable data  
+Consolidate financial data into a structured data flow
+Automate data processing and analysis tasks
+Reduce manual effort and risk of inconsistencies
+Support financial decisions based on reliable data
 
 ---
 
 ## ⚙️ Technologies
 
-- Python  
-- Pandas  
-- Process automation  
-- Data pipeline structuring (ETL)  
-- AI-assisted data organization and analysis  
+Python
+Pandas
+Process automation
+Data pipeline structuring (ETL)
+Web scraping (Selenium)
+API integration (Telegram, Yahoo Finance)
 
 ---
 
@@ -29,72 +55,102 @@ The solution was designed to structure scattered financial data, automate manual
 
 The project follows a structured data processing workflow:
 
-### Data Collection  
-Importing financial data from structured sources (e.g., CSV files)
+**Data Collection**
+Importing financial data from structured sources (e.g., Google Sheets)
 
-### Data Cleaning and Standardization  
+**Data Cleaning and Standardization**
 Cleaning, organizing, and normalizing data using Python (Pandas)
 
-### Transformation  
+**Transformation**
 Structuring data for analysis (categorization, aggregation, adjustments)
 
-### Analysis  
-Generating indicators and consolidating financial insights
+**Analysis**
+Generating indicators, risk metrics, and financial insights
 
-### Output  
-Producing reports and structured data for consumption  
-
----
-
-## 🚀 Results
-
-- Significant reduction in manual processes  
-- Improved data reliability and consistency  
-- Reusable structure for future analysis  
-- Centralized organization of financial data  
+**Output**
+Producing reports and structured data for consumption and notification
 
 ---
 
-## 📊 Applications
+## 📊 Example Output
 
-- Personal financial management  
-- Spending pattern analysis  
-- Data-driven decision support  
+Below is an example of the generated report:
+
+![Example](./images/example.png)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository
+2. Install dependencies:
+   `pip install -r requirements.txt`
+3. Configure credentials:
+
+   * Google Sheets API (`credenciais.json`)
+   * Telegram Bot (TOKEN and CHAT_ID)
+4. Run the pipeline:
+   `python main.py`
 
 ---
 
 ## 🔒 Note
 
-This project represents a portfolio-adapted version, focused on demonstrating technical structure and data analysis practices.
+This project represents a portfolio-adapted version, focused on demonstrating technical structure, data pipeline design, and data analysis practices.
+
+Sensitive information (credentials, tokens, and personal financial data) has been removed for security reasons.
+
+
+<img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" /> **pt-BR | # 📌 Análise de Dados Financeiros com Python** <img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
+
+Pipeline completo de dados financeiros desenvolvido para automatizar a coleta, análise e apoio à tomada de decisão em investimentos pessoais.
 
 ---
 
+## ❗ Problema
+
+Gerenciar dados financeiros manualmente pode gerar inconsistências, falta de visibilidade e decisões ineficientes.
+
+Este projeto foi criado para automatizar o processamento de dados financeiros e gerar insights estruturados para uma melhor tomada de decisão.
+
 ---
 
-<img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" /> **pt-BR | Análise de Dados Financeiros com Python** <img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
+## 🚀 Solução
 
-Projeto de análise e automação de dados financeiros desenvolvido com foco em organização, confiabilidade e apoio à tomada de decisão.
+Este projeto implementa um pipeline automatizado que:
 
-A solução foi construída para estruturar dados financeiros dispersos, automatizar processos manuais e gerar insights consistentes a partir das informações tratadas.
+* Coleta dados financeiros a partir de fontes estruturadas (Google Sheets)
+* Realiza limpeza e padronização dos dados
+* Enriquece os dados com informações externas (Status Invest / Yahoo Finance)
+* Calcula métricas financeiras, indicadores de risco e oportunidades
+* Gera relatórios estruturados
+* Envia notificações automatizadas via Telegram
+
+---
+
+## 🏗️ Arquitetura
+
+Google Sheets → Processamento de Dados (Pandas) → Dados Externos (Scraping + APIs) → Análise → Geração de Relatório → Notificação via Telegram
 
 ---
 
 ## 🎯 Objetivo
 
-- Consolidar dados financeiros em um único fluxo estruturado  
-- Automatizar etapas de tratamento e análise de dados  
-- Reduzir esforço manual e risco de inconsistências  
-- Apoiar decisões financeiras com base em dados  
+Consolidar dados financeiros em um fluxo estruturado
+Automatizar processos de tratamento e análise de dados
+Reduzir esforço manual e risco de inconsistências
+Apoiar decisões financeiras com base em dados confiáveis
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias
 
-- Python  
-- Pandas  
-- Automação de processos  
-- Estruturação de pipeline de dados (ETL)  
-- Apoio de inteligência artificial para organização e análise  
+Python
+Pandas
+Automação de processos
+Estruturação de pipeline de dados (ETL)
+Web scraping (Selenium)
+Integração com APIs (Telegram, Yahoo Finance)
 
 ---
 
@@ -102,40 +158,48 @@ A solução foi construída para estruturar dados financeiros dispersos, automat
 
 O projeto segue uma estrutura de processamento em etapas:
 
-### Coleta de dados  
-Importação de dados financeiros a partir de fontes estruturadas (ex: CSV)
+**Coleta de Dados**
+Importação de dados financeiros a partir de fontes estruturadas (ex: Google Sheets)
 
-### Tratamento e padronização  
+**Tratamento e Padronização**
 Limpeza, organização e normalização dos dados utilizando Python (Pandas)
 
-### Transformação  
+**Transformação**
 Estruturação das informações para análise (categorias, agregações, ajustes)
 
-### Análise  
-Geração de indicadores e consolidação dos dados financeiros
+**Análise**
+Geração de indicadores, métricas de risco e insights financeiros
 
-### Saída de dados  
-Produção de relatórios e dados prontos para consumo  
-
----
-
-## 🚀 Resultados
-
-- Redução significativa de processos manuais  
-- Maior confiabilidade e padronização dos dados  
-- Estrutura reutilizável para análises futuras  
-- Organização centralizada das informações financeiras  
+**Saída de Dados**
+Produção de relatórios e dados prontos para consumo e envio automatizado
 
 ---
 
-## 📊 Aplicações
+## 📊 Exemplo de Saída
 
-- Controle financeiro pessoal  
-- Análise de padrões de gastos  
-- Suporte à tomada de decisão baseada em dados  
+Abaixo está um exemplo do relatório gerado:
+
+![Exemplo](./images/example.png)
+
+---
+
+## ⚙️ Como Executar
+
+1. Clone o repositório
+2. Instale as dependências:
+   `pip install -r requirements.txt`
+3. Configure as credenciais:
+
+   * Google Sheets API (`credenciais.json`)
+   * Bot do Telegram (TOKEN e CHAT_ID)
+4. Execute o pipeline:
+   `python main.py`
 
 ---
 
 ## 🔒 Observação
 
-Este projeto representa uma versão adaptada para portfólio, com foco na demonstração da estrutura técnica e das práticas de análise de dados.
+Este projeto representa uma versão adaptada para portfólio, com foco na demonstração da estrutura técnica, construção de pipelines de dados e práticas de análise de dados.
+
+Informações sensíveis (credenciais, tokens e dados financeiros pessoais) foram removidas por motivos de segurança.
+
