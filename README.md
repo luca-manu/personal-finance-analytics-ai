@@ -101,7 +101,7 @@ This project represents a portfolio-adapted version, focused on demonstrating te
 Sensitive information (credentials, tokens, and personal financial data) has been removed for security reasons.
 
 
-<img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />                    **pt-BR | # 📌 Análise de Dados Financeiros com Python**                    <img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
+<img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" /> **pt-BR | # 📌 Análise de Dados Financeiros com Python** <img width="25" height="18" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
 
 Pipeline completo de dados financeiros desenvolvido para automatizar a coleta, análise e apoio à tomada de decisão em investimentos pessoais.
 
