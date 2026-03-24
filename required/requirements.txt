@@ -1,0 +1,10 @@
+pip install -r requirements.txt
+
+pandas
+yfinance
+gspread
+google-auth
+feedparser
+selenium
+undetected-chromedriver
+requests
