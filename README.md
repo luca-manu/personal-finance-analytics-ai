@@ -42,8 +42,8 @@ Data-driven decision support
 
 This project represents a portfolio-adapted version, focused on demonstrating technical structure and data analysis practices.
 ________________________________________________________________________________________________________________________________
-<img width="25" height="18" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" /> pt-🇧🇷 Análise de dados financeiros com Python pt-🇧🇷 <img width="25" height="18" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
-📌 
+<img width="25" height="18" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" /> pt-🇧🇷 📌Análise de dados financeiros com Python pt-🇧🇷 <img width="25" height="18" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />
+ 
 
 Projeto de análise e automação de dados financeiros desenvolvido com foco em organização, confiabilidade e apoio à tomada de decisão.
 
