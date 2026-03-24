@@ -1,16 +1,49 @@
-__pycache__/
-*.pyc
-
-venv/
+# =========================
+# CREDENCIAIS / SEGURANÇA
+# =========================
+credenciais.json
 .env
 
-.ipynb_checkpoints/
-
+# =========================
+# DADOS (NÃO VERSIONAR)
+# =========================
 *.csv
 *.xlsx
-*.parquet
+*.xls
 
-/output/
+# =========================
+# LOGS
+# =========================
+*.log
 
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# AMBIENTE VIRTUAL
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# IDEs / EDITORES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# JUPYTER (se usar depois)
+# =========================
+.ipynb_checkpoints/
