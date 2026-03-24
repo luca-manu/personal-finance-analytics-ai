@@ -1,3 +1,6 @@
+#To run this project, you need to install the following libraries in your command prompt (cmd):
+#Para rodar este projeto, é necessário instalar as seguintes bibliotecas em seu cmd:
+
 python -m pip install
 
 pandas
