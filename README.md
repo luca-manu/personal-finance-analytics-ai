@@ -1,4 +1,4 @@
-<img width="136" height="128" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />📌 Financial Data Analysis with Python
+📌 Financial Data Analysis with Python
 
 Financial data analysis and automation project developed to improve data organization, reliability, and support data-driven decision making.
 
@@ -42,7 +42,7 @@ Data-driven decision support
 
 This project represents a portfolio-adapted version, focused on demonstrating technical structure and data analysis practices.
 ________________________________________________________________________________________________________________________________
-pt-🇧🇷 Análise de dados financeiros com Python pt-🇧🇷
+<img width="100" height="88" alt="image" src="https://github.com/user-attachments/assets/c4feb76b-6179-4d5b-a171-d2d1e793b79a" />pt-🇧🇷 Análise de dados financeiros com Python pt-🇧🇷
 📌 
 
 Projeto de análise e automação de dados financeiros desenvolvido com foco em organização, confiabilidade e apoio à tomada de decisão.
